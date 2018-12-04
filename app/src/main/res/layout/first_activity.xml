@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 1" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回" />
+
+    <Button
+        android:id="@+id/btn_ui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ui章节练习"/>
+
+    <Button
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="layout章节练习"/>
+
+    <Button
+        android:id="@+id/btn_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListView练习"/>
+
+    <Button
+        android:id="@+id/btn_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView练习"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳转" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="隐式跳转" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="传参跳转" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回数据给上一个活动" />
+
+    </LinearLayout>
+
+</LinearLayout>
