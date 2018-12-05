@@ -20,31 +20,37 @@
         android:id="@+id/btn_ui"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ui章节练习"/>
+        android:text="ui章节练习" />
 
     <Button
         android:id="@+id/btn_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="layout章节练习"/>
+        android:text="layout章节练习" />
 
     <Button
         android:id="@+id/btn_list_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ListView练习"/>
+        android:text="ListView练习" />
 
     <Button
         android:id="@+id/btn_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="RecyclerView练习"/>
+        android:text="RecyclerView练习" />
 
     <Button
         android:id="@+id/btn_chat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Chat页面练习"/>
+        android:text="Chat页面练习" />
+
+    <Button
+        android:id="@+id/btn_web_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WebView练习" />
 
     <LinearLayout
         android:layout_width="match_parent"

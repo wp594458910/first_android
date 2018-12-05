@@ -114,6 +114,15 @@ public class FirstActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button webView = findViewById(R.id.btn_web_view);
+        webView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FirstActivity.this, WebViewActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
