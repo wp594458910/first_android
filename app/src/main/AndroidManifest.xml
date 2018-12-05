@@ -27,7 +27,8 @@
         <activity android:name=".UiActivity" />
         <activity android:name=".LayoutActivity" />
         <activity android:name=".ListViewActivity" />
-        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity android:name=".RecyclerViewActivity" />
+        <activity android:name=".ChatActivity"></activity>
     </application>
 
 </manifest>

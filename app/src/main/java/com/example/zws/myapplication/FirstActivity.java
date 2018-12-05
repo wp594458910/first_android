@@ -105,6 +105,15 @@ public class FirstActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button chat = findViewById(R.id.btn_chat);
+        chat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FirstActivity.this, ChatActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
