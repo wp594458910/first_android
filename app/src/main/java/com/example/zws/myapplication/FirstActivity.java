@@ -123,6 +123,14 @@ public class FirstActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button material = findViewById(R.id.btn_material);
+        material.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(FirstActivity.this, MaterialActivity.class));
+            }
+        });
     }
 
     @Override

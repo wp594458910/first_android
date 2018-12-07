@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.zws.myapplication">
 
-    <!-- 访问网络权限声明-->
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- 访问网络权限声明 -->
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -32,7 +32,10 @@
         <activity android:name=".ListViewActivity" />
         <activity android:name=".RecyclerViewActivity" />
         <activity android:name=".ChatActivity" />
-        <activity android:name=".WebViewActivity"></activity>
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".MaterialActivity" android:theme="@style/myTheme" android:label="ToolBar练习">
+
+        </activity>
     </application>
 
 </manifest>
