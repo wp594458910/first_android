@@ -131,6 +131,14 @@ public class FirstActivity extends AppCompatActivity {
                 startActivity(new Intent(FirstActivity.this, MaterialActivity.class));
             }
         });
+
+        Button cardView = findViewById(R.id.btn_card_view);
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(FirstActivity.this, CardViewActivity.class));
+            }
+        });
     }
 
     @Override
